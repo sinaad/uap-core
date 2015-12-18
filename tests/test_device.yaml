@@ -80,6 +80,19 @@ test_cases:
     brand: 'Huawei'
     model: 'M750'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; H60-L01 Build/HDH60-L01) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    family: 'Huawei H60'
+    brand: 'Huawei'
+    model: 'H60'
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; Che1-CL20 Build/Che1-CL20) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36'
+    family: 'Huawei Che1'
+    brand: 'Huawei'
+    model: 'Che1'
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.2; Che2-TL00 Build/HonorChe2-TL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+    family: 'Huawei Che2'
+    brand: 'Huawei'
+    model: 'Che2'
+
   - user_agent_string: 'Mozilla/5.0 (iPad; U; CPU OS 3_2 like Mac OS X; en-us) AppleWebKit/531.21.10 (KHTML, like Gecko) Version/4.0.4 Mobile/7B367 Safari/531.21.10'
     family: 'iPad'
     brand: 'Apple'
@@ -8284,6 +8297,11 @@ test_cases:
     family: '5010'
     brand: 'Coolpad'
     model: '5010'
+
+  - user_agent_string: 'Coolpad8730L_CMCC_TD/1.0 Linux/3.4.0 Android/4.3 Release/1.30.2014 Browser/AppleWebkit534.30 Profile/MIDP-1.0 Configuration/CLDC-1.0'
+    family: '8730L_CMCC_TD'
+    brand: 'Coolpad'
+    model: '8730L_CMCC_TD'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 2.3.5; en-us; Coolpad 5210 Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
     family: '5210'
@@ -21499,6 +21517,11 @@ test_cases:
     family: 'HUAWEI MediaPad'
     brand: 'Huawei'
     model: 'MediaPad'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.4.2; zh-cn; X1 7.0 Build/HuaweiMediaPad) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 MQQBrowser/5.4 TBS/025483 Mobile Safari/533.1 V1_AND_SQ_6.1.0_312_YYB_D QQ/6.1.0.2635 NetType/WIFI WebP/0.3.0 Pixel/1200'
+    family: 'Huawei MediaPad X1'
+    brand: 'Huawei'
+    model: 'MediaPad X1'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; U; Android 4.1.2; de-de; Ascend G-510 Build/GRJ90; CyanogenMod-10) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30'
     family: 'Ascend G-510'
@@ -36365,6 +36388,16 @@ test_cases:
     brand: 'Meizu'
     model: 'MX'
 
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; MZ-m2 note Build/LMY47D) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.114 Mobile Safari/537.36'
+    family: 'Meizu m2 note'
+    brand: 'Meizu'
+    model: 'm2 note'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 5.1; MZ-MX5 Build/LMY47I) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.114 Mobile Safari/537.36'
+    family: 'Meizu MX5'
+    brand: 'Meizu'
+    model: 'MX5'
+
   - user_agent_string: 'HbbTV/1.1.1 (;Metz;MMS;;;) CE-HTML/1.0'
     family: 'HbbTV'
     brand: 'Metz'
@@ -47294,6 +47327,14 @@ test_cases:
     family: 'Nokia E6-00'
     brand: 'Nokia'
     model: 'E6-00'
+  - user_agent_string: 'Mozilla/5.0 (iPhone 6; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/6.0 MQQBrowser/6.1.1 Mobile/12F70 Safari/8536.25'
+    family: 'iPhone 6'
+    brand: 'Apple'
+    model: 'iPhone 6'
+  - user_agent_string: 'Mozilla/5.0 (iPhone 6p; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/6.0 MQQBrowser/6.1.1 Mobile/12F70 Safari/8536.25'
+    family: 'iPhone 6p'
+    brand: 'Apple'
+    model: 'iPhone 6p'
 
   - user_agent_string: 'Mozilla/5.0 (Symbian/3; U; E7-00; de-DE) AppleWebKit/534.3 (KHTML, like Gecko) Qt/4.7.4 Mobile Safari/534.3'
     family: 'Nokia E7-00'
@@ -74830,6 +74871,11 @@ test_cases:
     brand: 'TCL'
     model: 'Y910'
 
+  - user_agent_string: 'TCL P500M/V3 Linux/3.10.48 Android/4.4.4 Release/04.01.2014 Browser/AppleWebKit537.36 safari/534.30'
+    family: 'TCL P500M'
+    brand: 'TCL'
+    model: 'P500M'
+
   - user_agent_string: 'ERO247 Android Application (13, ero247 v2.1) - TCT BASE_Lutea_3 TCT - FFFFFFFF-B55D-2E76-CE69-DD502160AC9C'
     family: 'TCT BASE_Lutea_3'
     brand: 'TCT'
@@ -77379,6 +77425,11 @@ test_cases:
     family: 'XiaoMi Redmi Note 2'
     brand: 'XiaoMi'
     model: 'Redmi Note 2'
+
+  - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.4.4; 2014813 Build/KTU84P) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/33.0.0.0 Mobile Safari/537.36'
+    family: 'XiaoMi MIUI'
+    brand: 'XiaoMi'
+    model: 'MIUI'
 
   - user_agent_string: 'Mozilla/5.0 (Linux; Android 4.1.1; XOLO A1000 Build/JRO03C) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166 Mobile Safari/535.19'
     family: 'Xolo A1000'

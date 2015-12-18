@@ -1119,10 +1119,14 @@ device_parsers:
     device_replacement: 'Alcatel One Touch $1'
     brand_replacement: 'Alcatel'
     model_replacement: 'One Touch $1'
-  - regex: '; *(TCL)[ _]([^;/]+) Build'
+  - regex: '; *(TCL)[ _]([^;/]+) (Build)?'
     device_replacement: '$1 $2'
     brand_replacement: '$1'
     model_replacement: '$2'
+  - regex: '^TCL ([^ /;]+)'
+    device_replacement: 'TCL $1'
+    brand_replacement: 'TCL'
+    model_replacement: '$1'
   # operator specific models
   - regex: '; *(Vodafone Smart II|Optimus_Madrid) Build'
     device_replacement: 'Alcatel $1'
@@ -1600,6 +1604,11 @@ device_parsers:
     brand_replacement: 'Coolpad'
     model_replacement: '$1$2'
 
+  - regex: 'Coolpad([^/;]+)'
+    device_replacement: '$1'
+    brand_replacement: 'Coolpad'
+    model_replacement: '$1'
+
   #########
   # Cube
   # @ref: http://www.cube-tablet.com/buy-products.html
@@ -2029,6 +2038,10 @@ device_parsers:
     device_replacement: '$1$2'
     brand_replacement: 'Huawei'
     model_replacement: '$2'
+  - regex: '; X1 ([^;]+) Build/HuaweiMediaPad'
+    device_replacement: 'Huawei MediaPad X1'
+    brand_replacement: 'Huawei'
+    model_replacement: 'MediaPad X1'
   - regex: '; *(MediaPad[^;]+|SpringBoard) Build/Huawei'
     device_replacement: '$1'
     brand_replacement: 'Huawei'
@@ -2673,6 +2686,10 @@ device_parsers:
     brand_replacement: 'Meizu'
     model_replacement: '$1'
   - regex: '; *(?:meizu_|MEIZU )(.+?) *(?:Build|[;\)])'
+    device_replacement: 'Meizu $1'
+    brand_replacement: 'Meizu'
+    model_replacement: '$1'
+  - regex: '; MZ\-([^;/]+) Build'
     device_replacement: 'Meizu $1'
     brand_replacement: 'Meizu'
     model_replacement: '$1'
@@ -3845,6 +3862,10 @@ device_parsers:
     device_replacement: 'XiaoMi $1'
     brand_replacement: 'XiaoMi'
     model_replacement: '$1'
+  - regex: '; (\d+) Build'
+    device_replacement: 'XiaoMi MIUI'
+    brand_replacement: 'XiaoMi'
+    model_replacement: 'MIUI'
 
   #########
   # Xolo
@@ -4290,6 +4311,10 @@ device_parsers:
     device_replacement: '$1'
     brand_replacement: 'Apple'
     model_replacement: '$1'
+  - regex: 'iPhone (6|6p); CPU iPhone'
+    device_replacement: 'iPhone $1'
+    brand_replacement: 'Apple'
+    model_replacement: 'iPhone $1'
   # @note: iPad needs to be before iPhone
   - regex: '(iPad)(?:;| Simulator;)'
     device_replacement: '$1'
@@ -4406,6 +4431,10 @@ device_parsers:
     device_replacement: 'Huawei Vodafone $1'
     brand_replacement: 'Huawei'
     model_replacement: 'Vodafone $1'
+  - regex: '; (H60|Che1|Che2)\-([^;/]+) Build'
+    device_replacement: 'Huawei $1'
+    brand_replacement: 'Huawei'
+    model_replacement: '$1'
 
   ##########
   # i-mate
